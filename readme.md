@@ -2,11 +2,11 @@ Questionário simples. Exercício de Js, do assunto sobre  laço de repetição 
 
 Regras desse questionário:
 
-Nome: tem que ser maior que 3 caracteres;
-Idade: entre 0 e 150;
-Salário: maior que zero;
-Sexo: F ou M;
-Estado Civil: Solteiro(a), Casado(a), Viúvo(a) e Divorciado(a).
+Nome: tem que ser maior que 3 caracteres;</br>
+Idade: entre 0 e 150;</br>
+Salário: maior que zero;</br>
+Sexo: F ou M;</br>
+Estado Civil: Solteiro(a), Casado(a), Viúvo(a) e Divorciado(a).</br>
 
 
 *Projeto simples, sem css. Focado apenas no JS.
