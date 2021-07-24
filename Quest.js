@@ -1,17 +1,34 @@
 function ir() {
     var mensagem = document.getElementById('mens')
     var menssalario = document.getElementById('mensS')
-    var hora = new Date
-    var tempo = hora.getDate
-    var time = new Date
-    var hora = time.getHours
+    var mensfooter= document.getElementById('mensagemfooter')
     var name = document.getElementById('nome').value
     var age = Number(document.getElementById('idade').value)
     var salary = Number(document.getElementById('salario').value)
+    var hora= new Date()
+    var hora1= hora.getHours()
+    var dia= new Date()
+    var dia1= dia.getDate()
+    var mes= new Date()
+    var mes1= mes.getMonth()
+    var ano= new Date()
+    var ano1= ano.getFullYear()
     mensagem.innerHTML = ''
     mensagem.style.textAlign = 'center'
     menssalario.innerHTML = ''
     menssalario.style.color = 'red'
+    mensfooter.innerHTML+= ''
+    mensfooter.style.textAlign='center'
+
+
+
+
+
+
+
+
+
+
 
     //sexo
     var sex = document.getElementsByName('sexo')
@@ -42,6 +59,9 @@ function ir() {
     if (name.length > 3 && salary > 0 && age < 150) {
         mensagem.innerHTML += `Seu nome é ${name}, você tem ${age} anos e você é ${genero}. Além disso,
         você recebe R$ ${salary} e você é ${EC1}`
+
+        mensfooter.innerHTML+= `Esse questionário foi respondido às ${hora1} horas de ${dia1}/${mes1+1}/${ano1} `
+
     } else {
 
         //Aplicando o laço de repetição
