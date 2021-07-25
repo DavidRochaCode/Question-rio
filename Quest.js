@@ -19,9 +19,8 @@ function ir() {
     menssalario.style.color = 'red'
     mensfooter.innerHTML+= ''
     mensfooter.style.textAlign='center'
- 
 
-    //sexo
+     //sexo
     var sex = document.getElementsByName('sexo')
     var genero = ''
 
