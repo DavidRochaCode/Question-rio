@@ -64,7 +64,7 @@ function ir() {
             }
 
             if (name.length < 3) {
-                alert('Seu nome deve ter mais de 3 caractéries')
+                alert('Seu nome deve ter mais de 3 caracteres')
             }
             if (age > 150) {
                 alert(" Idade permitida até 150 anos, caso você seja um vampiro.")
